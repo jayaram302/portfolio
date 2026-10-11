@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b18">
+  <meta name="description" content="Jayaram's student portfolio in Data Science and Web Development.">
+  <title>Jayaram | 3D Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background-orb orb-one"></div>
+  <div class="background-orb orb-two"></div>
+  <div class="grid-background"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">J<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <span class="eyebrow"><span class="live-dot"></span>
+          STUDENT DEVELOPER PORTFOLIO</span>
+
+        <h1>Hello, I'm<br><span class="gradient-text">Jayaram.</span></h1>
+
+        <h2>I am a <span id="typing-text">Data Science Student</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          I am pursuing M.Sc. Data Science at GITAM University.
+          I enjoy learning technology, analysing data and creating
+          modern websites that solve real problems.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button primary">Explore Projects ↗</a>
+          <a href="assets/jayaram(1).pdf" class="button secondary" download>
+            ↓ Download Resume
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/jayaram302" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/alla-jayaram?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-outer"></div>
+        <div class="orbit orbit-inner"></div>
+
+        <div class="profile-card tilt-card" id="profile-card">
+          <div class="profile-glow"></div>
+          <img src="assets/photo.jpeg" alt="Jayaram's profile photo"
+               class="profile-photo"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="profile-fallback">J</div>
+          <span class="profile-status"><span class="live-dot"></span>
+            OPEN TO OPPORTUNITIES</span>
+          <div class="floating-chip chip-top">✦ DATA SCIENCE</div>
+          <div class="floating-chip chip-bottom">{"< />"} DEVELOPER</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <span class="eyebrow">01 / ABOUT ME</span>
+        <h2>Curious mind.<br><span class="gradient-text">Creative builder.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <div class="card-icon">✦</div>
+          <h3>Who am I?</h3>
+          <p>
+            I am a Computer Science graduate and an M.Sc. Data Science
+            student at GITAM University. I am building my knowledge in
+            Python, SQL, web development and data analysis.
+          </p>
+        </article>
+        <article class="glass-card reveal">
+          <div class="card-icon">⌘</div>
+          <h3>My goal</h3>
+          <p>
+            To grow into a skilled technology professional by learning
+            through projects, improving my coding skills and contributing
+            to useful software solutions.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <span class="eyebrow">02 / MY TOOLKIT</span>
+        <h2>Skills I'm <span class="gradient-text">building.</span></h2>
+        <p>My learning journey in programming and data technology.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card tilt-card reveal"><span>🐍</span><h3>Python</h3><p>Programming fundamentals</p></div>
+        <div class="skill-card tilt-card reveal"><span>▤</span><h3>SQL</h3><p>Database queries</p></div>
+        <div class="skill-card tilt-card reveal"><span>🌐</span><h3>HTML & CSS</h3><p>Responsive websites</p></div>
+        <div class="skill-card tilt-card reveal"><span>⚡</span><h3>JavaScript</h3><p>Web interactions</p></div>
+        <div class="skill-card tilt-card reveal"><span>📊</span><h3>Data Analysis</h3><p>Insights and charts</p></div>
+        <div class="skill-card tilt-card reveal"><span>∑</span><h3>Statistics</h3><p>Probability and analysis</p></div>
+      </div>
+      <p class="small-note">Keep your portfolio skills accurate and update them as you learn.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <span class="eyebrow">03 / MY WORK</span>
+        <h2>Projects in <span class="gradient-text">progress.</span></h2>
+        <p>Replace the sample projects below with your real work.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card tilt-card reveal">
+          <div class="project-image data-image">
+            <img src="assets/project-data.jpg" alt="Data analysis project preview"
+                 onerror="this.style.display='none';">
+            <span class="image-label">01 / DATA</span>
+            <div class="chart-art"><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">DATA SCIENCE</span>
+            <h3>Student Result Analysis</h3>
+            <p>Explore student marks and discover performance patterns with Python and Pandas.</p>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>Charts</span></div>
+            <a href="https://github.com/jayaram302" target="_blank"
+               rel="noopener noreferrer" class="project-link">View source ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card tilt-card reveal">
+          <div class="project-image web-image">
+            <img src="assets/project-web.jpg" alt="Web development project preview"
+                 onerror="this.style.display='none';">
+            <span class="image-label">02 / WEB</span>
+            <div class="browser-art">
+              <div class="browser-bar"><i></i><i></i><i></i></div>
+              <div class="browser-line"></div><div class="browser-line short"></div>
+              <div class="browser-button"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">WEB DEVELOPMENT</span>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive personal website to showcase my education, skills and work.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="#home" class="project-link">Explore this site ↑</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <span class="eyebrow">04 / MY JOURNEY</span>
+        <h2>Education & <span class="gradient-text">experience.</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <span class="timeline-date">CURRENT</span>
+          <h3>M.Sc. Data Science</h3>
+          <p>GITAM University</p>
+          <p class="muted">First-year student</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <span class="timeline-date">COMPLETED</span>
+          <h3>B.Sc. Computer Science</h3>
+          <p>Undergraduate degree</p>
+          <p class="muted">Andhara University and graduation year 2026.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <span class="timeline-date">INTERNSHIP</span>
+          <h3>Web Development Intern</h3>
+          <p>WIPRO Jun to Jul 2024 .</p>
+          <p class="muted">INFOTECH Oct to Nov 2024.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="contact-panel reveal">
+        <span class="eyebrow">05 / LET'S CONNECT</span>
+        <h2>Have an opportunity?<br><span class="gradient-text">Let's talk.</span></h2>
+        <p>I'm interested in learning, collaborating and exploring suitable opportunities.</p>
+        <a class="button primary"
+           href="mailto:allajayaram302@gmail.com?subject=Portfolio%20Opportunity">
+          Email Me ↗
+        </a>
+        <p class="small-note">Replace the sample email address with your real email.</p>
+      </div>
+      
+<!-- Mobile Number Contact -->
+<div class="contact-item">
+    <h3>📱 Mobile Number</h3>
+    <p>
+        <a href="tel:+919876543210">
+            +91 9177725100
+        </a>
+    </p>
+</div>
+
+
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">J<span>.</span></a>
+    <p>Designed and built by Jayaram · <span id="year"></span></p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
